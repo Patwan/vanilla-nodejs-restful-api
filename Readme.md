@@ -5,8 +5,7 @@ The API has full CRUD functionality of Create, Read, Update and Delete.
 
 ## Application feautures
 
-* OAuth Authentication using Passport
-* Connect to MongoDB cloud as our database
+* CRUD functionality
 
 ## Installation
 * Clone the folder using **git clone**
