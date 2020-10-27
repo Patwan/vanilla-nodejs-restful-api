@@ -1,11 +1,16 @@
 # RESTFUL API using Vanilla Node Framework
 
-In this repository, we explore the creation of a Restful API using plain Nodejs without any framework.
-The API has full CRUD functionality of Create, Read, Update and Delete.
+* In this repository, we explore the creation of a Restful API using plain Nodejs without any of its frammework e.g Express or Adonis.
+* The API has full CRUD functionality of Create, Read, Update and Delete. We populate data in a Json file
+but you can customize it to use a Nosql database e.g MongoDB or SQL database e.g MySQL
+* We use MVC arhitectural pattern, the application logic is inside controllers folder, models are inside
+models folder, we dont have C for Client since this is an API.
 
-## Application feautures
+## Application Depedencies
 
-* CRUD functionality
+* UUID - As listed in package.json, this package helps in generating a unique identifier for each record
+  being stored in JSON file.
+* Nodemon - A develeopment depedency for hot reloading of the server.
 
 ## Installation
 * Clone the folder using **git clone**
